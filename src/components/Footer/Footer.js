@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer">
             <p>
                 View this project on{' '}
-                <a href="https://github.com/abhiobourne" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/abhiobourne/Breathing-Exercise-Chrome-Extension" target="_blank" rel="noopener noreferrer">
                     GitHub
                 </a>
             </p>
