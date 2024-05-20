@@ -1,0 +1,21 @@
+.header {
+    background-color: #87CEFA; /* Light Sky Blue for a calming effect */
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure the header takes the full width of the popup */
+    position: fixed; /* Fix the header at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #ccc; /* Add a bottom border */
+}
+
+.header-title {
+    font-size: 2rem; /* Slightly larger font for better visibility */
+    margin: 0;
+    font-weight: normal;
+}

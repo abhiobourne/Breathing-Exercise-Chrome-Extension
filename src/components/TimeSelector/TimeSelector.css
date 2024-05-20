@@ -1,0 +1,27 @@
+.timer-selector {
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.timer-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #87CEFA;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.timer-button.selected {
+    background-color: #4682B4;
+}
+
+.timer-button:hover {
+    background-color: #00BFFF;
+}

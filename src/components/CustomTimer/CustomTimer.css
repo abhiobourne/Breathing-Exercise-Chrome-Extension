@@ -1,0 +1,30 @@
+.custom-timer {
+    margin: 20px 0;
+}
+
+.custom-timer form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.custom-timer input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60px;
+}
+
+.custom-timer button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #87CEFA;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-timer button:hover {
+    background-color: #00BFFF;
+}

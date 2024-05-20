@@ -1,0 +1,9 @@
+.streak-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.streak-container h3 {
+    margin: 10px 0;
+    color: #4682B4;
+}
