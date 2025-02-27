@@ -1,9 +1,52 @@
 .streak-container {
-    text-align: center;
-    margin: 20px 0;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
 }
 
-.streak-container h3 {
-    margin: 10px 0;
-    color: #4682B4;
+.streak-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 1rem;
+    color: #888;
+}
+
+.streak-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.streak-item {
+    display: flex;
+    align-items: center;
+}
+
+.streak-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.streak-info {
+    text-align: left;
+}
+
+.streak-title {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.streak-value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
 }

@@ -1,0 +1,45 @@
+.stopwatch-container {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 0 auto;
+}
+
+.stopwatch-header {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.stopwatch-timer {
+  font-size: 2rem;
+  color: #4682B4;
+  margin-bottom: 10px;
+}
+
+.stopwatch-end-time {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.stopwatch-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #6a1b9a;
+  color: white;
+}
+
+.stopwatch-buttons button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.stopwatch-buttons button:hover:not(:disabled) {
+  background-color: #7b1fa2;
+}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './streak.css';
+import './Streak.css';
 
 const Streak = () => {
     const [currentStreak, setCurrentStreak] = useState(0);
@@ -57,8 +57,26 @@ const Streak = () => {
 
     return (
         <div className="streak-container">
-            <h3>Current Streak: {currentStreak} days</h3>
-            <h3>Highest Streak: {highestStreak} days</h3>
+            <div className="streak-header">
+                Insights
+                <span className="arrow"> &gt; </span>
+            </div>
+            <div className="streak-content">
+                <div className="streak-item">
+                    <div className="streak-icon">🌿</div>
+                    <div className="streak-info">
+                        <div className="streak-title">Current Streak</div>
+                        <div className="streak-value">{currentStreak} Days</div>
+                    </div>
+                </div>
+                <div className="streak-item">
+                    <div className="streak-icon">🔥</div>
+                    <div className="streak-info">
+                        <div className="streak-title">Highest Streak</div>
+                        <div className="streak-value">{highestStreak} Days</div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

@@ -1,0 +1,172 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px; /* Adjust padding to accommodate fixed header */
+    box-sizing: border-box;
+  }
+  
+  .content {
+    padding: 20px;
+    width: 100%;
+    max-width: 800px; /* Set a max-width for the content */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 60px; /* Adjust the top margin to shift components upwards */
+    box-sizing: border-box;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .header, .footer, .navbar, .music-player-card {
+    width: 100%;
+    max-width: 800px; /* Match the max-width of the content */
+    margin: 0 auto; /* Center-align the header, footer, and navbar */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    background-color: #1D2B44; /* Darker background to match the theme */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items to the left and right */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fix the header at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #ccc; /* Add a bottom border */
+  }
+  
+  .header-title {
+    font-size: 2rem; /* Slightly larger font for better visibility */
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  .footer {
+    background-color: #1D2B44;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    border-top: 2px solid #ccc; /* Add a top border */
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+    width: 100%;
+    max-width: 800px; /* Ensure a max width for larger screens */
+    box-sizing: border-box;
+  }
+  
+  .music-player-card {
+    background-color: white;
+    padding: 0; /* Remove padding to avoid double padding */
+  }
+  
+  /* Navbar.css */
+  
+  .navbar {
+    background-color: #1D2B44;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 80px; /* Adjust based on the height of the header */
+    left: 0;
+    width: 100%;
+    max-width: 800px; /* Match the max-width of the content */
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    margin: 0 auto;
+    z-index: 1000;
+    box-sizing: border-box;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+  }
+  
+  .navbar-item {
+    margin: 0 15px;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar-link.active, .navbar-link:hover {
+    border-bottom: 2px solid white;
+  }
+  
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-button, .navbar-language {
+    background-color: #5F4B8B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .navbar-button:hover, .navbar-language:hover {
+    background-color: #3F3576;
+  }
+  
+  
+  
